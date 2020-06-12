@@ -46,6 +46,9 @@
 
 	<dependencies>
 		<!-- Spring -->
+		dependencies {
+classpath "org.sonarsource.scanner.gradle: sonarqube-gradle-plugin:2.5"
+}
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
